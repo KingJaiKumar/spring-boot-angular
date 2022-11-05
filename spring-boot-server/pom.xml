@@ -11,8 +11,8 @@
 	<groupId>com.bezkoder</groupId>
 	<artifactId>spring-boot-jpa-h2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-jpa-h2</name>
-	<description>Spring Boot JPA + H2 database example - CRUD Rest Apis</description>
+	<name>spring-boot-jpa-mysql</name>
+	<description>Spring Boot JPA + MySQL database example - CRUD Rest Apis</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -34,6 +34,13 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>8.0.26</version>
+		</dependency>
+
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

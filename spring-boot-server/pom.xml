@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bezkoder</groupId>
-	<artifactId>spring-boot-jpa-h2</artifactId>
+	<artifactId>spring-boot-jpa-mysql</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-jpa-mysql</name>
 	<description>Spring Boot JPA + MySQL database example - CRUD Rest Apis</description>

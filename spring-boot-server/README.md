@@ -12,4 +12,4 @@ docker build -t spring-boot-jpa-mysql:1.0 .
 
 ## Using Docker run Spring Boot application
 ```
-docker run -d --name spring-boot-jpa-mysql -p 8083:8080 spring-boot-jpa-mysql
+docker run -d --name spring-boot-jpa-mysql -p 8083:8081 spring-boot-jpa-mysql:latest
